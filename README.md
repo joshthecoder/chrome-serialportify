@@ -13,14 +13,14 @@ Install
 -------
 Grab the latest release from NPM...
 
-  npm install chrome-serialportify
+    npm install chrome-serialportify
 
-Then use Browserify to bundle it into your Chrome App.
+Then use Browserify to bundle it into your Chrome App...
 
-  browserify main.js -o bundle.js
+    browserify main.js -o bundle.js
 
 References
 ----------
-[node-serialport](https://github.com/voodootikigod/node-serialport)
-[chrome.serial](http://developer.chrome.com/apps/serial.html)
-[Browserify](http://browserify.org/)
+- [node-serialport](https://github.com/voodootikigod/node-serialport)
+- [chrome.serial](http://developer.chrome.com/apps/serial.html)
+- [Browserify](http://browserify.org/)
